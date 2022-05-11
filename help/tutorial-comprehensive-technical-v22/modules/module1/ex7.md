@@ -9,7 +9,7 @@ exl-id: 8e17129c-633d-45bd-aa70-78cc3d3a2108
 ---
 # 1.7 XDM Schema requirements in Adobe Experience Platform
 
-To ensure Web SDK and alloy.js are able to ingest data into Adobe Experience Platform, there is a requirement for a specific XDM Mixin to be part of the XDM Schema in Adobe Experience Platform.
+To ensure Web SDK and alloy.js are able to ingest data into Adobe Experience Platform, there is a requirement for a specific XDM Field Group to be part of the XDM Schema in Adobe Experience Platform.
 
 Go to [https://experience.adobe.com/platform](https://experience.adobe.com/platform) and log in.
 
@@ -25,7 +25,7 @@ In the left menu, go to **Schemas** and open the **Demo System - Event Schema fo
 
 ![AEP Debugger](./images/exp3.png)
 
-On that Schema, you'll see that the field group **AEP Web SDK ExperienceEvent Mixin** has been added. This field group adds all the minimally required fields to the Schema. Every Experience Event Schema in Adobe Experience Platform that will be used by Web SDK will always require that field group to be part of the Schema.
+On that Schema, you'll see that the field group **AEP Web SDK ExperienceEvent Field Group** has been added. This field group adds all the minimally required fields to the Schema. Every Experience Event Schema in Adobe Experience Platform that will be used by Web SDK will always require that field group to be part of the Schema.
 
 ![AEP Debugger](./images/exp4.png)
 
